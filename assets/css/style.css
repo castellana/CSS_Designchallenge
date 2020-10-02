@@ -1,0 +1,134 @@
+/* font-family: 'Roboto', sans-serif; */
+/* body {
+    color: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+.logo {
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.logo__text {
+    width: 18%;
+    margin: 10px 0 0 50px;
+}
+.logo__h3 {
+    font-size: 1rem;
+}
+.logo__h4 {
+    font-size: 0.6rem;
+}
+header {
+    background-image: url(../img/ilustracion_people.png),
+    url(../img/ilustracion1.png); 
+    background-position: right, top right;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    min-height: 100vh;
+}
+.header__h1 {
+    font-size: 2.7rem;
+    padding-bottom: 3%;
+}
+.section__p {
+    font-size: 1.1rem;
+    padding-bottom: 6%;
+}
+.header-title {
+    margin: 17% 10%;
+    width: 45%;
+}
+/*Section images*/
+section {
+    padding: 10% 0 10% 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+.images {
+    background: url(../img/images.jpg) center / contain no-repeat;
+    height: 80vh;
+
+}
+
+/*section ideas*/
+#ideas {
+    /* width: 80%; */
+    /* margin: 0 auto;
+    display: flex; */
+    /* flex-direction: column; */
+    height: 150vh;
+    /* justify-content: space-between; */
+
+}
+
+#ideas div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#ideas div:nth-of-type(1) h2 {
+    width: 35%;
+}
+#ideas div:nth-of-type(1) p {
+    width: 57%;
+}
+#ideas div:nth-of-type(1) span img {
+    height: 50px;
+}
+h2 {
+    font-size: 2.3rem;
+}
+p {
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+#ideas div:nth-of-type(2) h2 {
+    width: 62%;
+}
+.articles {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.figicon {
+    width: 7%;
+}
+figcaption {
+    width: 80%;
+}
+article p:nth-of-type(1) {
+    font-weight: bolder;
+}
+
+/*section lets go*/
+#letsgo {
+    text-align: center;
+}
+.letsgo-right {
+min-height: 50vh;
+display: flex;
+justify-content: space-around;
+}
+.letsgo__img {
+    height: 50vh;
+}
+/*Section Subscribe*/
+#subscribe {
+    width: 80%;
+    text-align: center;
+}
